@@ -1,0 +1,150 @@
+[INFO  - 2014-05-12T20:49:50.372Z] GhostDriver - Main - running on port 39899[[INFO  - 2014-05-12T20:50:20.338Z] Session [07eccfb0-da17-11e3-aabb-8ba439888b9a] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascr[INFO  - 2014-05-12T20:50:20.358Z] Session [07eccfb0-da17-11e3-aba6-2d3c6f662426] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-05-12T20:50:20.358Z] Session [07eccfb0-da17-11e3-aba6-2d3c6f662426] - page.customHeaders:  - {}
+[INFO  - 2014-05-12T20:50:20.358Z] Session [07eccfb0-da17-11e3-aba6-2d3c6f662426] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","phantomjs.binary.path":"H:\\phantomjs.exe","version":""}
+[INFO  - 2014-05-12T20:50:20.358Z] Session [07eccfb0-da17-11e3-aba6-2d3c6f662426] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyTy[[ERROR - 2014-05-12T20:51:43.398Z] Session [07e41d20-da17-11e3-b2c2-c51bdc821fd9] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (msg): TypeError: 'undefined' is not a function (evaluating 'function(c){var b=$(c.target);
+var d=!b.closest("a").length;if(d){this.gifStartMoving(c);return false}return true}.bind(this)')
+[ERROR - 2014-05-12T20:51:43.398Z] Session [07e41d20-da17-11e3-b2c2-c51bdc821fd9] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (stack): [
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 2678,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 2840,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 70,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 77,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 36,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 16,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-12T20:51:43.627Z] Session [07e41d20-da17-11e3-b2c2-c51bdc821fd9] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (msg): TypeError: 'undefined' is not a function (evaluating 'b.bind({separator:d})')
+[ERROR - 2014-05-12T20:51:43.627Z] Session [07e41d20-da17-11e3-b2c2-c51bdc821fd9] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (stack): [
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 4745,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 948,
+    "function": "innerCallFJPageLoadedEvents"
+  }
+]
+  "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 948,
+    "function": "innerCallFJPageLoadedEvents"
+  }
+]
+: 947,
+    "function": "onFJPageLoadedOrSelectorExists"
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 4746,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-12T20:51:01.597Z] Session [07ea85c0-da17-11e3-b1cf-23001feafadb] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (msg): TypeError: 'undefined' is not a function (evaluating 'b.bind({separator:d})')
+[ERROR - 2014-05-12T20:51:01.597Z] Session [07ea85c0-da17-11e3-b1cf-23001feafadb] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (stack): [
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 4745,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 947,
+    "function": "onFJPageLoadedOrSelectorExists"
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 4746,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-12T20:51:01.650Z] Session [07ea85c0-da17-11e3-b1cf-23001feafadb] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (msg): TypeError: 'undefined' is not a function (evaluating 'function(c){var b=$(c.target);
+var d=!b.closest("a").length;if(d){this.gifStartMoving(c);return false}return true}.bind(this)')
+[ERROR - 2014-05-12T20:51:01.650Z] Session [07ea85c0-da17-11e3-b1cf-23001feafadb] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (stack): [
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 2678,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 2840,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 70,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 77,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 36,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 16,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-12T20:51:01.675Z] Session [07e64000-da17-11e3-b1cf-23001feafadb] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (msg): TypeError: 'undefined' is not a function (evaluating 'function(c){var b=$(c.target);
+var d=!b.closest("a").length;if(d){this.gifStartMoving(c);return false}return true}.bind(this)')
+[ERROR - 2014-05-12T20:51:01.675Z] Session [07e64000-da17-11e3-b1cf-23001feafadb] - Page at 'http://www.funnyjunk.com/136+000+000+results/funny-pictures/5137013/' - Console Error (stack): [
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 2678,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 2840,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 70,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 77,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 36,
+    "function": ""
+  },
+  {
+    "file": "http://x.fjcdn.com/site/js/everything-4ed97ebe6376177a7ebc024011025fbc.js",
+    "line": 16,
+    "function": ""
+  }
+]
